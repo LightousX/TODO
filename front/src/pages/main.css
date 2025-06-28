@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap');
+
+.grand{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: #caf0f8;
+    min-height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+    /* max-width: 100vw; */
+    
+}
+.inputdiv{
+    display: flex;
+    gap: 0px;
+    position: absolute;
+    height: 14%;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: red; */
+}
+.taskenter{
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    width: 80%;
+    height: 50%;
+    color: #03045e;
+}
+.Add{
+    height: 50%;
+    width: 13%;
+    background-color: white;
+    border:solid 2px rgb(106, 237, 244);
+    border-radius: 10px;
+    color: #03045e; 
+}
+.lists{
+    background-color: #caf0f8;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 20%;
+    
+}
+.eachtask{
+    position: relative;
+    /* display: flex; */
+    gap: 10%;
+    background-color: #caf0f8;
+    justify-content: space-evenly;
+    color: #03045e;
+    /* border: solid 2px black; */
+    height: 10vh;
+    width: 100%;
+    
+    
+}
+.adj{
+    width: 50%;
+    max-height: 100%;
+    overflow-x: hidden;
+    background-color: #caf0f8;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    font-family: "Baloo 2";
+    font-size: 20px;
+    
+}
+.delete{
+    
+    position: relative;
+    
+    left: 65%;
+    top: 10%;
+    height: 30px;
+    width: 10%;
+    background-color: white;
+    border:solid 2px rgb(106, 237, 244);
+    border-radius: 10px;
+    color: #03045e; 
+
+}
+
+.second{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    /* background-color: red; */
+    top: -75vh;
+
+
+
+}
+.logout{
+    position: absolute;
+    z-index: 1;
+    top: 5%;
+    right: 5%;
+    height: 30px;
+    width: 10%;
+    background-color: white;
+    border:solid 2px rgb(106, 237, 244);
+    border-radius: 10px;
+    color: #03045e; 
+}

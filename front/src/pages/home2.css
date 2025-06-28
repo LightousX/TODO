@@ -1,0 +1,25 @@
+.mainnn{
+    display: flex;
+    position: relative; 
+    align-items: center;
+    justify-content: center; 
+    background-color: #caf0f8;
+    height: 85vh;
+    width: 100vw;
+    max-width:100%; 
+}
+
+.headinggg{
+    position: relative;
+    /* background-color: red; */
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     justify-content: center;
+     gap: 25px;
+}
+
+
+
+
+

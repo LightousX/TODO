@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap');
+
+.inpbox{
+    position: relative;
+  
+
+    height: 30vh;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    background-color: azure;
+    border-radius: 4px;
+
+}
+
+.heading{
+    /* padding: 10px; */
+    font-family: 'Baloo 2';
+    font-size: 20px;
+    position: absolute;
+    top: 15px;
+    left: 4px;
+    height: 20%;
+}
+.taskval{
+    position: relative;
+    padding: 4px;
+    height: 80%;
+}
+.inval{
+    position: absolute;
+    top: 50%;
+    /* left: 3%; */
+    width: 95%;
+    height: 15%;   
+}
+
+.submit{
+    position: relative;
+    /* top: 50%; */
+  left: 50%;
+  transform: translate(-50%, -50%);
+    height: 14%;
+    width: 30%;
+}
